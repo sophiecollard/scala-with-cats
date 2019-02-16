@@ -1,4 +1,4 @@
-package chapter3
+package chapter3.printable
 
 trait Printable[A] { self =>
 

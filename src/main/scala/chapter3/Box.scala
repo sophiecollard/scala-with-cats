@@ -1,5 +1,7 @@
 package chapter3
 
+import chapter3.printable.Printable
+
 final case class Box[A](value: A)
 
 object Box {
