@@ -9,3 +9,5 @@ scalacOptions ++= Seq(
   "-Xfatal-warnings",
   "-Ypartial-unification"
 )
+
+addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.4")
